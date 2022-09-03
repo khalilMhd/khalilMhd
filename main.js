@@ -32,7 +32,7 @@ else if (country === "maroc") {
 console.log(discountAmount);
 
 
-var bubble = {
+/*var bubble = {
 
     x: 300,
     y: 200,
@@ -53,7 +53,7 @@ function display() {
     strokeWeight(4),
     noFill();
     ellipse(bubble.x.y, 24,24);
-}
+}*/
 
 document.getElementById("text").innerHTML = 5
 let text = 5
