@@ -1,8 +1,5 @@
-- 👋 Hi, I’m @khalilMhd
-- 👀 I’m interested in web development
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 👋 Hi, I’m @khalilMhd from morroco
+
 
 <!---
 khalilMhd/khalilMhd is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
