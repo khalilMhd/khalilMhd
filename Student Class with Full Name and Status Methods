@@ -1,0 +1,89 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMue+A6zJ+cnzC2Wq1Ton6n",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/khalilMhd/khalilMhd/blob/main/Student%20Class%20with%20Full%20Name%20and%20Status%20Methods\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 88,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ajpsXjxOb08F",
+        "outputId": "b3eb3ca9-76e1-45c7-ec7c-c4115a7f4a4a"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "khalil 20 male \n",
+            " John 21 female\n",
+            "Mr. khalil, you are welcome Ms John, your welcome\n",
+            "khalil mhd 60 passed\n",
+            "yassin  ouacha 30 faild\n",
+            "ahmed nhd 90 passed\n",
+            "hind mhd 100 passed\n",
+            "fatimzhrea nhd 10 faild\n"
+          ]
+        }
+      ],
+      "source": [
+        "class student():\n",
+        "  def __init__(self, first_name, last_name, grades):\n",
+        "\n",
+        "    self.name = first_name\n",
+        "    self.lname = last_name\n",
+        "    self.grade = grades\n",
+        "\n",
+        "  def full_name(self):\n",
+        "      return f\"{self.name} {self.lname} {self.grade}\"\n",
+        "  def statue(self):\n",
+        "\n",
+        "      if self.grade >= 60:\n",
+        "          return \"passed\"\n",
+        "      elif self.grade < 60:\n",
+        "          return \"faild\"\n",
+        "      else:\n",
+        "          quit()\n",
+        "\n",
+        "student_1 = student(\"khalil\", \"mhd\", 60)\n",
+        "student_2 = student(\"yassin\",\" ouacha\", 30)\n",
+        "student_3 = student(\"ahmed\",\"nhd\", 90)\n",
+        "student_4 = student(\"hind\",\"mhd\", 100)\n",
+        "student_5 = student(\"fatimzhrea\",\"nhd\", 10)\n",
+        "\n",
+        "print(student_1.full_name(), student_1.statue())\n",
+        "print(student_2.full_name(), student_2.statue())\n",
+        "print(student_3.full_name(), student_3.statue())\n",
+        "print(student_4.full_name(), student_4.statue())\n",
+        "print(student_5.full_name(), student_5.statue())\n",
+        "\n"
+      ]
+    }
+  ]
+}
